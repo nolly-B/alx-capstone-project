@@ -1,0 +1,67 @@
+:root {
+  --head-font: "Irish Grover", system-ui;
+}
+
+body {
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+}
+#weather-forecast {
+  font-size: 30px;
+  font-family: var(--head-font);
+}
+.btn-success {
+  position: relative;
+  left: 210px;
+  background-color: #f76b8a !important;
+  top: -37px;
+}
+#current-temperature {
+  font-size: xx-large;
+}
+
+ul {
+  top: -30px;
+  position: relative;
+  right: 60px;
+}
+#links {
+  position: relative;
+  left: 40px;
+  top: -70px;
+  font-size: xx-large;
+}
+
+#description {
+  text-transform: capitalize;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-date {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+#tue-icon {
+  position: relative;
+  right: 10px;
+}
+.weather-temperature {
+  font-size: 13px;
+}
+.minimum-temperature {
+  font-size: 10px;
+  opacity: 0.5;
+}
+.maximum-temperature {
+  font-size: 10px;
+}
